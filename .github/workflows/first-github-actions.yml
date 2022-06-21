@@ -2,7 +2,7 @@ name: Run Shell Commnds
 on: [push]
 
 jobs:
-  run-shell-command:
+  runs-shell-command:
     run-on: ubuntu-latest
     steps:
       - name: Echo a String
