@@ -2,8 +2,8 @@ name: Run Shell Commnds
 on: [push]
 
 jobs:
-  runs-shell-command:
-    run-on: ubuntu-latest
+  run-shell-command:
+    runs-on: ubuntu-latest
     steps:
       - name: Echo a String
         run: echo "Hello Sec Guru - First Github action file yml file"
